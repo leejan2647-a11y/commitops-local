@@ -1,6 +1,6 @@
 {
   "name": "commitops",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leejan2647-a11y/commitops-local.git"
