@@ -6,7 +6,23 @@
     "url": "git+https://github.com/leejan2647-a11y/commitops-local.git"
   },
   "homepage": "https://commitops.cc.cd",
-  "description": "Offline AWS CUR charge analysis with a loopback web interface",
+  "description": "Read AWS Cost and Usage Reports on your own machine and see the evidence behind each finding.",
+  "keywords": [
+    "aws",
+    "aws-cost",
+    "billing",
+    "cost-and-usage-report",
+    "cur",
+    "finops",
+    "cloud-cost",
+    "cost-optimization",
+    "reserved-instances",
+    "savings-plans",
+    "local-first",
+    "privacy",
+    "duckdb",
+    "cli"
+  ],
   "license": "FSL-1.1-ALv2",
   "bin": {
     "commitops": "bin/commitops-local.cjs"
