@@ -163,6 +163,7 @@ single step change can produce no finding.
 - Analysis runs in a child process with **outbound connections blocked** and
   DuckDB automatic extension loading disabled.
 - Files, results, SQLite state, team mappings and reports stay on the device.
+- Downloaded reports and CSV exports leave the device only when you share them.
 - There is no analytics or telemetry service.
 - You supply the export file. Nothing is fetched from your AWS account.
 
