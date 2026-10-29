@@ -207,10 +207,8 @@ repository before it closes.
 
 ## Documentation
 
-- [User guide](HOW-IT-WORKS.md) for the first check, dates, detectors, reports and recovery
-- [Manual feature map](MANUAL-FEATURES.md) for exactly what the local edition includes
-- [Local architecture](DESIGN.md) for how the local adapters differ from the hosted build
-- [Changelog](CHANGELOG.md)
+The user guide ships inside the app. Open **Documentation** from the footer for the
+first check, date selection, the eight detectors, reports and recovery.
 
 ## Contributing
 
