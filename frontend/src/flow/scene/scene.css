@@ -1,0 +1,7 @@
+.flow-scene{position:relative;isolation:isolate;contain:layout paint style;content-visibility:auto;overflow:hidden;width:100%;min-width:0}
+.flow-scene-ribbon{aspect-ratio:5/3;max-width:1000px;margin-inline:auto}
+.flow-scene-globe{aspect-ratio:1;max-width:550px;margin-inline:auto}
+.flow-scene>canvas,.flow-scene-poster{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.flow-scene>canvas{visibility:hidden}
+.flow-scene[data-ready=true]>canvas{visibility:visible}
+.flow-scene[data-ready=true]>.flow-scene-poster{visibility:hidden}

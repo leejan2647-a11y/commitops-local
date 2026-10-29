@@ -1,0 +1,68 @@
+/* Observatory tokens; kept in sync with styles/tokens.ts by token tests. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    --base: #09090b;
+    --base-raised: #0f0f13;
+    --surface: #141418;
+    --surface-raised: #1b1b21;
+    --surface-alt: #111115;
+    --surface-hover: #202026;
+
+    --foreground: #f5f5f7;
+    --muted-foreground: #a1a1ad;
+    --subtle-foreground: #91919e;
+
+    --muted: #111115;
+
+    --border: #29292f;
+    --input: #29292f;
+    --ring: #f76b70;
+
+    --accent: #f76b70;
+    --accent-hover: #ff969a;
+    --accent-foreground: #190d10;
+    --accent-tint: #f76b701a;
+    --accent-border: #f76b7066;
+    --accent-glow: #f76b701e;
+    --accent-glow-strong: #f76b7035;
+
+    --destructive: #f2a2a5;
+    --destructive-foreground: #190d10;
+    --success: #82bba0;
+    --warning: #f2c97e;
+    --info: #f76b70;
+    --violet: #b4a5de;
+
+    --success-tint: #82bba01a;
+    --warning-tint: #f2c97e1a;
+    --danger-tint: #f2a2a51a;
+    --info-tint: #f76b701a;
+
+    --scrim-strong: #0008;
+    --shadow-card: rgb(0 0 0 / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-base text-foreground;
+
+    font-family: 'DM Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}

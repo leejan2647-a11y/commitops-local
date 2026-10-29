@@ -1,0 +1,6 @@
+duckdb==1.5.5
+pydantic==2.13.5
+pyarrow==25.0.1
+pytz==2026.5
+python-dateutil==2.9.0.post0
+psutil==7.2.2

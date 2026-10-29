@@ -1,0 +1,43 @@
+{
+  "name": "commitops",
+  "version": "0.5.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejan2647-a11y/commitops-local.git"
+  },
+  "homepage": "https://commitops.cc.cd",
+  "description": "Offline AWS CUR charge analysis with a loopback web interface",
+  "license": "FSL-1.1-ALv2",
+  "bin": {
+    "commitops": "bin/commitops-local.cjs"
+  },
+  "files": [
+    "bin/*.cjs",
+    "engine/**/*.py",
+    "requirements.txt",
+    "SOURCE-INVENTORY.json",
+    "README.md",
+    "LICENSE",
+    "MANUAL-FEATURES.md",
+    "DESIGN.md",
+    "CHANGELOG.md",
+    "web/**/*",
+    "HOW-IT-WORKS.md"
+  ],
+  "scripts": {
+    "start": "node bin/commitops-local.cjs",
+    "setup": "node bin/runtime.cjs",
+    "postinstall": "node bin/runtime.cjs",
+    "test": "node --test tests/runtime.test.cjs",
+    "build:ui": "npm --prefix frontend run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}

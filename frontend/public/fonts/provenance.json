@@ -1,0 +1,31 @@
+{
+  "retrieved": "2026-10-24",
+  "cssSource": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..700&family=IBM+Plex+Mono:wght@400;500&display=swap",
+  "fonts": [
+    {
+      "file": "ibm-plex-mono-400-latin.woff2",
+      "family": "IBM Plex Mono",
+      "weight": "400",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7",
+      "source": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2"
+    },
+    {
+      "file": "ibm-plex-mono-500-latin.woff2",
+      "family": "IBM Plex Mono",
+      "weight": "500",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22",
+      "source": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg.woff2"
+    },
+    {
+      "file": "plus-jakarta-sans-latin.woff2",
+      "family": "Plus Jakarta Sans",
+      "weight": "400 700",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+      "source": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2"
+    }
+  ],
+  "licenseSource": "https://github.com/google/fonts/tree/main/ofl"
+}
